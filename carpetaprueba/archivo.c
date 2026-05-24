@@ -65,6 +65,7 @@ int main() {
       // Pedir nombre del jugador
       printf("Jugador %d - Nombre: ", j + 1);
       fgets(equipos[i].titulares[j].nombre, MAX_TEXTO, stdin);  // Leer nombre
+      printf("Jugador %d - Posición: ", j + 1);
       
       // Pedir posición del jugador
       printf("Jugador %d - Posición: ", j + 1);
